@@ -1,0 +1,10 @@
+a={23,45,56}
+b={47,52,85,74}
+print(a)
+print(b)
+b.discard(85)
+b.discard(45)
+a.pop()
+print(a)
+b.remove(45)
+print(b)
